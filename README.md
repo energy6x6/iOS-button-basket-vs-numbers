@@ -1,14 +1,14 @@
 # iOS-button-basket-vs-numbers
 Objective-C: UIButton has image basket  with counter in circle.
 
-This example help you to show counter in basket. You can use it simply. 
+This example help you to show counter in basket. You can use it simply. <br />
 ![gif](https://raw.githubusercontent.com/energy6x6/iOS-button-basket-vs-numbers/master/basket.gif)
 
-You can use one of variants:
-Example 1: 
-1. BasketButton inherit from UIButton
-2. Use Custom Class BasketButton in storyboard in UIButton-view
-3. Include this in your code:
+You can use one of variants:<br />
+***Example 1:*** <br />
+1. BasketButton inherit from UIButton<br />
+2. Use Custom Class BasketButton in storyboard in UIButton-view<br />
+3. Include this in your code:<br />
 ```
 @property (nonatomic, weak) IBOutlet BasketButton *basket1;
 
@@ -17,9 +17,9 @@ Example 1:
     [self.basket1 updateCounter:self.calc1];
 }
 ```
-Example 2:
-1. You have to import extension
-2. Include this in your code:
+***Example 2:***<br />
+1. You have to import extension<br />
+2. Include this in your code:<br />
 
 ```
 #import "UIButton+Counter.h"
